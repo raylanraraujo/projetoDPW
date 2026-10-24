@@ -1,0 +1,38 @@
+@import url("styles/header.css");
+@import url("styles/breadcumpb.css");
+@import url("styles/cabecalho.css");
+@import url("styles/indicadores.css");
+@import url("styles/busca.css");
+@import url("styles/grande_categorias.css");
+
+
+:root {
+  /* Cores Principais / Tema */
+  --cor-tomate: #D9480F;
+  --cor-tomate-escuro: #B23A0B;
+  --cor-cafe: #2A1A12;
+  --cor-creme: #FFF8EF;
+  --cor-erva: #2B8A3E;
+
+  /* Estados e Elementos */
+  --cor-erro: #C92A2A;
+  --cor-atencao: #F59F00;
+  --cor-linha: #EEDFCF;   
+  
+  /* cor da fonte */
+  --cor-fonte-breadcumpb-inativo: #8C7868;
+  --cor-fonte-breadcumpb-ativo: #2A1A12;
+  --cor-fonte-descricao: #5C4A3E;
+  --cor-fonte-badge: #C85A32;
+
+}
+
+
+
+body{
+    background-color: var(--cor-creme);
+}
+
+main{
+     padding: 36px 120px 72px 120px;
+}
