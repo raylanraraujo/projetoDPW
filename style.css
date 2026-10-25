@@ -5,6 +5,12 @@
 @import url("styles/busca.css");
 @import url("styles/grande_categorias.css");
 
+@import url("styles/toast.css");
+@import url("styles/cabecalho_categoria.css");
+@import url("styles/cabecalho_filtros.css");
+@import url("styles/tabela_categoria_pratos.css");
+
+
 
 :root {
   /* Cores Principais / Tema */
@@ -13,18 +19,23 @@
   --cor-cafe: #2A1A12;
   --cor-creme: #FFF8EF;
   --cor-erva: #2B8A3E;
+  /*  */
+  --cor-button-editar:#FBEFDF;
 
   /* Estados e Elementos */
-  --cor-erro: #C92A2A;
+  
   --cor-atencao: #F59F00;
-  --cor-linha: #EEDFCF;   
+  --cor-linha: #EEDFCF;  
+  --cor-sucesso:#E3F5E6; 
+  --cor-erro-fundo: #FFF0F0;
   
   /* cor da fonte */
   --cor-fonte-breadcumpb-inativo: #8C7868;
   --cor-fonte-breadcumpb-ativo: #2A1A12;
   --cor-fonte-descricao: #5C4A3E;
   --cor-fonte-badge: #C85A32;
-
+  --cor-fonte-verde-escuro: #2B8A3E;  
+  --cor-fonte-erro: #C92A2A;
 }
 
 
