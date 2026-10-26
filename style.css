@@ -12,7 +12,7 @@
 
 @import url("styles/nova_categoria.css");
 
-
+@import url("styles/editar_prato.css");
 :root {
   /* Cores Principais / Tema */
   --cor-tomate: #D9480F;

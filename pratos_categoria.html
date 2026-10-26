@@ -168,12 +168,26 @@
                         <span class="status-dot"></span> Disponível
                     </span>
                 </div>
-                <div class="col-acoes">
+
+
+                <!-- <div class="col-acoes">
                     <button class="btn-acao btn-editar" title="Editar"><img src="img/icon_edit_pencil.png" alt="Editar"></button>
                     <button class="btn-acao btn-excluir" title="Excluir"><img src="img/icon_trash.png" alt="Excluir"></button>
+                </div> -->
+
+                <div class="col-acoes">
+                    <!-- Botão de Editar transformado em Link (<a>) estilizado como botão -->
+                    <a href="editar_prato.html" class="btn-acao btn-editar" title="Editar">
+                        <img src="img/icon_edit_pencil.png" alt="Editar">
+                    </a>
+
+                    <!-- Botão de Excluir mantido como <button> para disparar a ação -->
+                    <button type="button" class="btn-acao btn-excluir" title="Excluir" onclick="abrirModalExclusao(1)">
+                        <img src="img/icon_trash.png" alt="Excluir">
+                    </button>
                 </div>
             </div>
-            
+
             <!-- Item 2: Prato Esgotado -->
             <div class="prato-item">
                 <div class="col-prato prato-info">
@@ -189,9 +203,15 @@
                         <span class="status-dot"></span> Esgotado
                     </span>
                 </div>
-                <div class="col-acoes">
-                    <button class="btn-acao btn-editar" title="Editar"><img src="img/icon_edit_pencil.png" alt="Editar"></button>
-                    <button class="btn-acao btn-excluir" title="Excluir"><img src="img/icon_trash.png" alt="Excluir"></button>
+                   <div class="col-acoes">
+                    <!-- Botão de Editar transformado em Link (<a>) estilizado como botão -->
+                    <a href="editar_prato.html" class="btn-acao btn-editar" title="Editar">
+                        <img src="img/icon_edit_pencil.png" alt="Editar">
+                    </a>
+
+                    <button type="button" class="btn-acao btn-excluir" title="Excluir" onclick="abrirModalExclusao(1)">
+                        <img src="img/icon_trash.png" alt="Excluir">
+                    </button>
                 </div>
             </div>
         </div>
