@@ -15,8 +15,9 @@
     margin-bottom: 28px;
 }
 
-.toast-conteudo {
+.toast-pratos-categoria-conteudo {
     display: flex;
+    flex-direction: row;
     align-items: center;
     gap: 10px;
 }

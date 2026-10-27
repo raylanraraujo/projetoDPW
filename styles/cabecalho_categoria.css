@@ -127,6 +127,17 @@
     background-color: #B24E2B;
 }
 
+.categoria-acoes a {
+padding: 12px 20px;
+background-color: var(--cor-tomate);
+color: white;
+text-decoration: none;
+border-radius: 10px;
+font-family: 'Plus Jakarta Sans', sans-serif;
+font-size: 15px;
+font-weight: 600;
+}
+
 /* --- Responsividade para Telas Menores --- */
 @media (max-width: 768px) {
     .cabecalho-categoria {
