@@ -40,12 +40,14 @@
                         </li>
 
                         <!-- Item: Pratos-->
+                        <!--REMOVIDO não tem link e nem utilização
                         <li>
                             <a href="#" class="menu-item">
                                 <span class="icone"><img src="img/utensils.svg" alt=""></span>
                                 <span class="texto">Pratos</span>
                             </a>
                         </li>
+                        FIM DO REMOVIDO-->
                     </ul>
                 </nav>
             </div>
@@ -97,6 +99,7 @@
                 </div>
             </div>
             <!--  indicador da quantidade de pratos esgotados no sistema -->
+            <!-- REMOVIDO indicador de esgotados sem campo de estoque na entidade Prato
             <div class="indicadores_item">
                 <div class="indicadores_item_imagem_container">
                     <img class="indicadores_item_imagem" src="img/indicador_esgotados.png" alt="">
@@ -107,7 +110,8 @@
                 </div>
             </div>
         </div>
-
+        FIM DO REMOVIDO-->
+            
         <div class="busca_container">
             <!-- 1. Campo de Busca (Separado) -->
             <div class="busca_box">
@@ -126,7 +130,9 @@
 
                 <select class="select_filtro">
                     <option value="" disabled selected>Ordem do cardápio</option>
+                    <!-- REMOVIDO elemento sem utilidade, ordenação por data sem campo de criação
                     <option value="recente">Mais recentes</option>
+                    -->
                     <option value="alfabetica">Alfabética</option>
                 </select>
 
@@ -140,6 +146,8 @@
         <!--  -->
         <section class="categorias_container">
             <!-- Card de Exemplo (Repetido dinamicamente para cada nova categoria) -->
+
+            <!-- REMOVIDO cartão fixo de Executivos substituído por dados
             <div class="card-categoria">
                 <div class="card-capa">
                     <img src="img/categoria_pratos_executivos.jpg" alt="Executivos">
@@ -153,7 +161,7 @@
                     <div class="card-footer">
                         <a href="pratos_categoria.html" class="btn-ver-pratos">Ver pratos &rarr;</a>
                         <div class="card-acoes">
-                            <!-- <button class="btn-acao" title="Editar"><img src="img/icon_edit_pencil.png" alt="Editar"></button> -->
+                           <button class="btn-acao" title="Editar"><img src="img/icon_edit_pencil.png" alt="Editar"></button>
                              <a href="editar_categoria.html" class="btn-acao" title="Editar">
                                 <img src="img/icon_edit_pencil.png" alt="Editar">
                             </a>
@@ -162,6 +170,8 @@
                     </div>
                 </div>
             </div>
+        -->
+            
             <!-- Novos cards adicionados pelo cadastro aparecerão aqui -->
              
             
@@ -177,6 +187,9 @@
             <p>© 2024 Sabor de casa. Todos os direitos reservados.</p>
         </div>
     </footer> -->
+
+        <!-- ADICIONADO categorias, busca e ações à API. -->
+    <script src="scripts/app.js" defer></script>
 </body>
 
 </html>
